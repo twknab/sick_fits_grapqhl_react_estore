@@ -7,7 +7,7 @@ const Meta = () => (
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="shortcut icon" href="../static/favicon.png" />
     <link rel="stylesheet" href="../static/nprogress.css" />
-    <title>Sick Fits!</title>
+    <title>Slick Fits!</title>
   </Head>
 );
 

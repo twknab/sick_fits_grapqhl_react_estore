@@ -28,6 +28,7 @@ const StyledHeader = styled.header`
     grid-template-columns: auto 1fr;
     justify-content: space-between;
     align-items: stretch;
+    margin-bottom: 20px;
     @media (max-width: 1300px) {
       grid-template-columns: 1fr;
       justify-content: center;
@@ -45,11 +46,11 @@ const Header = () => (
     <div className="bar">
       <Logo>
         <Link href="/">
-          <a>Sick Fits</a>
+          <a>Slick Fits</a>
         </Link>
       </Logo>
+      <Nav />
     </div>
-    <Nav />
     <div className="sub-bar">
       <p>Search</p>
     </div>
