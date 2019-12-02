@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Nav from "./Nav";
 import styled from "styled-components";
+import Nav from "./Nav";
 
 const Logo = styled.h1`
   font-size: 4rem;
@@ -28,7 +28,6 @@ const StyledHeader = styled.header`
     grid-template-columns: auto 1fr;
     justify-content: space-between;
     align-items: stretch;
-    margin-bottom: 20px;
     @media (max-width: 1300px) {
       grid-template-columns: 1fr;
       justify-content: center;
@@ -37,7 +36,7 @@ const StyledHeader = styled.header`
   .sub-bar {
     display: grid;
     grid-template-columns: 1fr auto;
-    border-bottom: 1px solid ${props => props.theme.lightGrey};
+    border-bottom: 1px solid ${props => props.theme.lightgrey};
   }
 `;
 
@@ -46,7 +45,7 @@ const Header = () => (
     <div className="bar">
       <Logo>
         <Link href="/">
-          <a>Slick Fits</a>
+          <a>Sick Fits</a>
         </Link>
       </Logo>
       <Nav />
