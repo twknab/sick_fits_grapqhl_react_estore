@@ -145,7 +145,7 @@ var Meta = function Meta() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
-    charset: "UTF-8",
+    charSet: "UTF-8",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -160,7 +160,7 @@ var Meta = function Meta() {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
-    "http-equiv": "X-UA-Compatible",
+    httpEquiv: "X-UA-Compatible",
     content: "ie=edge",
     __source: {
       fileName: _jsxFileName,
@@ -189,7 +189,7 @@ var Meta = function Meta() {
       lineNumber: 10
     },
     __self: this
-  }, "Slick Fits!"));
+  }, "Sick Fits!"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Meta);
